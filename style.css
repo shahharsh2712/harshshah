@@ -43,7 +43,7 @@ header {
 }
 
 header nav {
-    margin-left: auto; /* This pushes the nav to the right */
+
 }
 
 header nav ul {
@@ -55,6 +55,10 @@ header nav ul {
 
 header nav ul li {
     margin-left: 20px;
+}
+
+header nav ul li:first-child {
+    margin-left: 0; /* Remove left margin from the first nav item */
 }
 
 header nav ul li a {
