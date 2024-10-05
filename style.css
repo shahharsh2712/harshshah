@@ -124,6 +124,7 @@ h2 {
 
 .bio {
     flex: 1;
+    padding-left: 2rem;
 }
 
 .bio h1 {
@@ -141,15 +142,37 @@ h2 {
 }
 
 .bio h3 {
-    font-size: 1.8rem;
+    font-size: 2.5rem; /* Larger font for "Biography" */
     color: #333;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    font-weight: normal; /* Make it less bold to match the image */
 }
 
 .bio p {
-    font-size: 1rem;
+    font-size: 1.1rem; /* Slightly larger font for content */
     color: #333;
     line-height: 1.6;
+    margin-bottom: 1rem; /* Space between paragraphs */
+}
+
+/* Style for links within the biography */
+.bio a {
+    color: #007bff; /* Blue color for links */
+    text-decoration: none;
+}
+
+.bio a:hover {
+    text-decoration: underline;
+}
+
+/* Style for potential lists in the biography */
+.bio ul, .bio ol {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+}
+
+.bio li {
+    margin-bottom: 0.5rem;
 }
 
 /* Social Media Icons */
