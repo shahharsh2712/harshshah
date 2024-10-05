@@ -42,6 +42,10 @@ header {
     text-decoration: none;
 }
 
+header nav {
+    margin-left: auto; /* This pushes the nav to the right */
+}
+
 header nav ul {
     list-style-type: none;
     padding: 0;
