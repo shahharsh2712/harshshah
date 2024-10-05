@@ -86,10 +86,18 @@ h2 {
 #home {
     background-color: #fff;
     padding: 3rem;
-    text-align: left;
     display: flex;
     align-items: flex-start;
+    justify-content: space-between;
     box-shadow: none;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 2rem;
 }
 
 #home img.profile-img {
@@ -97,7 +105,21 @@ h2 {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.profile-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.profile-container h2 {
+    font-size: 1.5rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+    border-bottom: none;
+    font-weight: normal;
 }
 
 .bio {
@@ -118,10 +140,16 @@ h2 {
     font-weight: normal;
 }
 
+.bio h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
 .bio p {
     font-size: 1rem;
-    margin-bottom: 1rem;
     color: #333;
+    line-height: 1.6;
 }
 
 /* Social Media Icons */
@@ -132,7 +160,7 @@ h2 {
 .social-media a img {
     width: 24px;
     height: 24px;
-    margin-right: 15px;
+    margin-right: 0 5px;
     transition: opacity 0.3s;
 }
 
