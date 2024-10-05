@@ -7,6 +7,12 @@ body {
     color: #333;
 }
 
+.container {
+    max-width: 1200px; /* Adjust this value as needed */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
 a {
     color: #007bff;
     text-decoration: none;
@@ -31,8 +37,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 1rem 0;
 }
 
 .logo a {
@@ -40,10 +45,6 @@ header {
     font-weight: normal;
     color: #333;
     text-decoration: none;
-}
-
-header nav {
-
 }
 
 header nav ul {
@@ -85,11 +86,10 @@ h2 {
 
 #home {
     background-color: #fff;
-    padding: 3rem;
+    padding: 3rem 0;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start; /* Change to flex-start */
-    box-shadow: none;
 }
 
 .profile-container {
