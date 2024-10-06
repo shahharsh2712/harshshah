@@ -8,9 +8,9 @@ body {
 }
 
 .container {
-    max-width: 1200px; /* Adjust this value as needed */
+    max-width: 900px; /* Reduced from 1200px */
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 40px; /* Increased from 20px */
 }
 
 a {
@@ -28,18 +28,17 @@ h1, h2 {
 
 header {
     background-color: #fff;
-    /* padding: 1rem 2rem; */
     color: #333;
     border-bottom: 1px solid #dee2e6;
 }
 
 .header-content {
-    max-width: 1400px; /* Adjust this value as needed */
+    max-width: 900px; /* Match with .container */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem 0; /* Remove horizontal padding */
 }
 
 .logo a {
@@ -76,8 +75,8 @@ header nav ul li a:hover {
 
 /* Sections */
 section {
-    padding: 2rem;
-    margin-bottom: 2rem;
+    padding: 0;
+    margin-bottom: 0;
 }
 
 h2 {
@@ -91,7 +90,7 @@ h2 {
     padding: 3rem 0;
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start; /* Change to flex-start */
+    justify-content: space-between; /* Changed from flex-start */
 }
 
 .profile-container {
@@ -99,7 +98,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-right: 3rem;
+    margin-right: 0;
     width: 200px; /* Set a fixed width */
 }
 
@@ -128,26 +127,21 @@ h2 {
 /* Update the bio section */
 .bio {
     flex: 1;
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
 .bio h3 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     color: #333;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-weight: normal;
 }
 
-.bio p {
-    font-size: 1.1rem; /* Slightly reduce font size */
+.bio p, .bio ul {
+    font-size: 1rem; /* Slightly reduced */
     color: #333;
     line-height: 1.6;
-    margin-bottom: 1rem;
-}
-
-.bio ul {
-    margin-bottom: 1rem;
-    padding-left: 1.5rem;
+    margin-bottom: 1.5rem; /* Increased from 1rem */
 }
 
 .bio li {
@@ -164,15 +158,16 @@ h2 {
 
 /* Update social media icons */
 .social-media {
-    margin-top: 1.5rem;
+    margin-top: 1rem; /* Reduced from 1.5rem */
 }
 
 .social-media a img {
-    width: 28px;
-    height: 28px;
-    margin: 0 8px; /* Fix the margin */
+    width: 24px; /* Reduced from 28px */
+    height: 24px; /* Reduced from 28px */
+    margin: 0 6px; /* Reduced from 8px */
     transition: opacity 0.3s;
 }
+
 /* Projects, Blog, YouTube */
 /* #projects, #posts, #youtube, #cv {
     background-color: #fff;
