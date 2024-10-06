@@ -129,7 +129,6 @@ h2 {
 /* Update the bio section */
 .bio {
     flex: 1;
-    padding-left: 2rem;
 }
 
 .bio h3 {
@@ -139,15 +138,20 @@ h2 {
     font-weight: normal;
 }
 
-.bio p, .bio ul {
-    font-size: 2rem; /* Slightly reduced */
+.bio p {
+    font-size: 1.1rem !important; /* Use !important to override any conflicting styles */
     color: #333;
     line-height: 1.6;
-    margin-bottom: 1.5rem; /* Increased from 1rem */
+    margin-bottom: 1.5rem;
 }
 
-.bio li {
-    font-size: 2rem;
+.bio ul {
+    margin-bottom: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.bio ul li {
+    font-size: 1.1rem;
     color: #333;
     line-height: 1.6;
     margin-bottom: 0.5rem;
