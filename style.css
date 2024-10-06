@@ -139,7 +139,7 @@ h2 {
 }
 
 .bio p {
-    font-size: 1.1rem !important; /* Use !important to override any conflicting styles */
+    font-size: 1rem !important; /* Use !important to override any conflicting styles */
     color: #333;
     line-height: 1.6;
     margin-bottom: 1.5rem;
@@ -151,7 +151,7 @@ h2 {
 }
 
 .bio ul li {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #333;
     line-height: 1.6;
     margin-bottom: 0.5rem;
