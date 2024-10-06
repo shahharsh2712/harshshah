@@ -8,9 +8,9 @@ body {
 }
 
 .container {
-    max-width: 1000px; /* Reduced from 1200px */
+    max-width: 1200px; /* Reduced from 1200px */
     margin: 0 auto;
-    padding: 0 40px; /* Increased from 20px */
+    padding: 0 20px; /* Increased from 20px */
 }
 
 a {
@@ -33,7 +33,7 @@ header {
 }
 
 .header-content {
-    max-width: 1000px; /* Match with .container */
+    max-width: 1200px; /* Match with .container */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -90,7 +90,7 @@ h2 {
     padding: 3rem 0;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between; /* Changed from flex-start */
+    justify-content: flex-start; /* Changed from flex-start */
     gap: 4rem;
 }
 
@@ -143,7 +143,7 @@ h2 {
     color: #333;
     line-height: 1.8; /* Increased from 1.6 */
     margin-bottom: 1.5rem;
-    text-align: left; /* Add this for justified text */
+    text-align: left;
 }
 
 .bio ul {
@@ -156,7 +156,7 @@ h2 {
     color: #333;
     line-height: 1.8; /* Match paragraph line height */
     margin-bottom: 0.5rem;
-    text-align: left; /* Add this for justified text */
+    text-align: left;
 }
 
 .bio strong {
