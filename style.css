@@ -91,6 +91,7 @@ h2 {
     display: flex;
     align-items: flex-start;
     justify-content: space-between; /* Changed from flex-start */
+    gap: 4rem;
 }
 
 .profile-container {
@@ -100,6 +101,7 @@ h2 {
     text-align: center;
     margin-right: 0;
     width: 200px; /* Set a fixed width */
+    flex-shrink: 0;
 }
 
 #home img.profile-img {
@@ -127,13 +129,12 @@ h2 {
 /* Update the bio section */
 .bio {
     flex: 1;
-    padding-left: 3rem;
 }
 
 .bio h3 {
     font-size: 2.5rem;
     color: #333;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     font-weight: normal;
 }
 
@@ -148,7 +149,7 @@ h2 {
     font-size: 1.1rem;
     color: #333;
     line-height: 1.6;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .bio strong {
