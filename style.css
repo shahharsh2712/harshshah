@@ -35,6 +35,7 @@ header {
     left: 0;
     width: 100%;
     z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .header-content {
@@ -139,6 +140,13 @@ h2 {
 .bio {
     flex: 1;
     max-width: 800px;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.bio p:first-child {
+    /* Ensure the first paragraph doesn't have any top margin */
+    margin-top: 0;
 }
 
 .bio h3 {
