@@ -34,7 +34,7 @@ header {
 }
 
 .header-content {
-    max-width: 1200px; /* Adjust this value as needed */
+    max-width: 1400px; /* Adjust this value as needed */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
