@@ -8,9 +8,9 @@ body {
 }
 
 .container {
-    max-width: 1500px; /* Adjust this value as needed */
+    max-width: 900px; /* Adjust this value as needed */
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 40px;
 }
 
 a {
@@ -34,12 +34,12 @@ header {
 }
 
 .header-content {
-    max-width: 1400px; /* Adjust this value as needed */
+    max-width: 900px; /* Adjust this value as needed */
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem 0;
 }
 
 .logo a {
@@ -91,7 +91,7 @@ h2 {
     padding: 3rem 0;
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start; /* Change to flex-start */
+    justify-content: space-between; /* Change to flex-start */
 }
 
 .profile-container {
@@ -99,7 +99,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-right: 3rem;
+    margin-right: 0;
     width: 200px; /* Set a fixed width */
 }
 
@@ -128,13 +128,13 @@ h2 {
 /* Update the bio section */
 .bio {
     flex: 1;
-    padding-left: 2rem;
+    padding-left: 3rem;
 }
 
 .bio h3 {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     color: #333;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     font-weight: normal;
 }
 
@@ -142,11 +142,11 @@ h2 {
     font-size: 1.1rem; /* Slightly reduce font size */
     color: #333;
     line-height: 1.6;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .bio ul {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     padding-left: 1.5rem;
 }
 
