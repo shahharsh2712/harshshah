@@ -8,9 +8,9 @@ body {
 }
 
 .container {
-    max-width: 1050px; /* Reduced from 1200px */
+    max-width: 1000px; /* Reduced from 1200px */
     margin: 0 auto;
-    padding: 0 30px; /* Increased from 20px */
+    padding: 0 40px; /* Increased from 20px */
 }
 
 a {
@@ -129,6 +129,7 @@ h2 {
 /* Update the bio section */
 .bio {
     flex: 1;
+    max-width: 800px;
 }
 
 .bio h3 {
