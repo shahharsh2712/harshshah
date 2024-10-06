@@ -91,7 +91,7 @@ h2 {
     display: flex;
     align-items: flex-start;
     justify-content: space-between; /* Changed from flex-start */
-    gap: 4rem;
+    gap: 5rem;
 }
 
 .profile-container {
@@ -132,17 +132,18 @@ h2 {
 }
 
 .bio h3 {
-    font-size: 2.5rem;
+    font-size: 2.8rem; /* Increased from 2.5rem */
     color: #333;
     margin-bottom: 1.5rem;
     font-weight: normal;
 }
 
 .bio p {
-    font-size: 1rem !important; /* Use !important to override any conflicting styles */
+    font-size: 1.2rem !important; /* Increased from 1.1rem */
     color: #333;
-    line-height: 1.6;
+    line-height: 1.8; /* Increased from 1.6 */
     margin-bottom: 1.5rem;
+    text-align: justify; /* Add this for justified text */
 }
 
 .bio ul {
@@ -151,10 +152,11 @@ h2 {
 }
 
 .bio ul li {
-    font-size: 1rem;
+    font-size: 1.2rem; /* Match paragraph font size */
     color: #333;
-    line-height: 1.6;
+    line-height: 1.8; /* Match paragraph line height */
     margin-bottom: 0.5rem;
+    text-align: justify; /* Add this for justified text */
 }
 
 .bio strong {
