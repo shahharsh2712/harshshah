@@ -175,17 +175,55 @@ h2 {
     height: 24px; /* Reduced from 28px */
     margin: 0 6px; /* Reduced from 8px */
     transition: opacity 0.3s;
-    background-color: #f0f0f0;
 }
 
-/* Projects, Blog, YouTube */
-/* #projects, #posts, #youtube, #cv {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
-} */
+/* Blog Posts Section */
+#posts {
+    padding: 2rem 0;
+}
 
+.post {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.post-meta {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+.post h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.post-excerpt {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.read-more:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+}
 
 /* Footer */
 footer {
